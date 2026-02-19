@@ -7,7 +7,7 @@ const courses = [
   {
     id: 1,
     title: 'Bachillerato Completo 6°-11°',
-    price: 350000,
+    price: 600000,
     description: 'Completa tu bachillerato desde 6° hasta 11° grado. Formación integral con todas las materias esenciales.',
     features: [
       'Clases grabadas 24/7',
