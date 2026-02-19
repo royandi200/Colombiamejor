@@ -25,10 +25,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Gallery />
         <Stats />
         <About />
         <Courses />
-        <Gallery />
         <Testimonials />
         <Contact />
       </main>
