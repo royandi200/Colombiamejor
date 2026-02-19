@@ -23,7 +23,7 @@ const courses = [
   {
     id: 2,
     title: 'Bachillerato Cursos 10°-11°',
-    price: 600000,
+    price: 760000,
     description: 'Programa acelerado para completar tus últimos dos años de bachillerato de manera eficiente.',
     features: [
       'Duración 12 meses',
