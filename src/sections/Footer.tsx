@@ -124,20 +124,20 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:info@colombiamejor.org"
+                  href="mailto:contacto@colombiamejor.org"
                   className="flex items-center gap-3 text-white/60 hover:text-dorado text-sm transition-colors duration-200"
                 >
                   <Mail className="w-4 h-4" />
-                  info@colombiamejor.org
+                  contacto@colombiamejor.org
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+573001234567"
+                  href="tel:+573115463751"
                   className="flex items-center gap-3 text-white/60 hover:text-dorado text-sm transition-colors duration-200"
                 >
                   <Phone className="w-4 h-4" />
-                  +57 300 123 4567
+                  +57 311 546 3751
                 </a>
               </li>
               <li className="flex items-start gap-3 text-white/60 text-sm">

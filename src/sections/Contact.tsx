@@ -11,14 +11,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Teléfono',
-    value: '+57 300 123 4567',
-    href: 'tel:+573001234567',
+    value: '+57 311 546 3751',
+    href: 'tel:+573115463751',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@colombiamejor.org',
-    href: 'mailto:info@colombiamejor.org',
+    value: 'contacto@colombiamejor.org',
+    href: 'mailto:contacto@colombiamejor.org',
   },
   {
     icon: MapPin,
@@ -31,7 +31,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Facebook, label: 'Facebook', href: '#' },
   { icon: Instagram, label: 'Instagram', href: '#' },
-  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/573001234567' },
+  { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/573115463751' },
 ];
 
 export default function Contact() {
