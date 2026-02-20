@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Phone, Mail, MapPin, Send, MessageCircle, Facebook, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageCircle, Facebook, Instagram, Music } from 'lucide-react';
 import { toast } from 'sonner';
 
 const contactInfo = [
@@ -29,8 +29,8 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Facebook, label: 'Facebook', href: '#' },
-  { icon: Instagram, label: 'Instagram', href: '#' },
+  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/share/1aVvfTiN7y/' },
+  { icon: Music, label: 'TikTok', href: 'https://www.tiktok.com/@colombiamejor100?_r=1&_t=ZS-9447roX4I1I' },
   { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/573115463751' },
 ];
 

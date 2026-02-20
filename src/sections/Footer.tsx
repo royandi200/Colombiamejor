@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MessageCircle, Mail, Phone } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle, Mail, Phone, Music } from 'lucide-react';
 
 const quickLinks = [
   { name: 'Inicio', href: '#inicio' },
@@ -15,8 +15,8 @@ const courseLinks = [
 ];
 
 const socialLinks = [
-  { icon: Facebook, label: 'Facebook', href: '#' },
-  { icon: Instagram, label: 'Instagram', href: '#' },
+  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/share/1aVvfTiN7y/' },
+  { icon: Music, label: 'TikTok', href: 'https://www.tiktok.com/@colombiamejor100?_r=1&_t=ZS-9447roX4I1I' },
   { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/573001234567' },
 ];
 
