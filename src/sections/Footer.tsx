@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MessageCircle, Mail, Phone, Music } from 'lucide-react';
+import { Facebook, MessageCircle, Mail, Phone, Music } from 'lucide-react';
 
 const quickLinks = [
   { name: 'Inicio', href: '#inicio' },
