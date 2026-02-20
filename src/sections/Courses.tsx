@@ -62,6 +62,15 @@ const formatPrice = (price: number) => {
   }).format(price);
 };
 
+const getWhatsAppMessage = (courseTitle: string) => {
+  return `Hola, me gustaría inscribirme en el curso "${courseTitle}". ¿Cuál es el siguiente paso?`;
+};
+
+const handleWhatsAppClick = (courseTitle: string) => {
+  const message = encodeURIComponent(getWhatsAppMessage(courseTitle));
+  window.open(`https://wa.me/573115463751?text=${message}`, '_blank');
+};
+
 export default function Courses() {
   return (
     <section id="cursos" className="bg-gray-50 section-padding">
@@ -147,6 +156,7 @@ export default function Courses() {
                 {/* CTA */}
                 <div className="p-6 pt-0">
                   <Button
+                    onClick={() => handleWhatsAppClick(course.title)}
                     className="w-full bg-institucional-blue hover:bg-institucional-blue-dark text-white font-semibold py-5 rounded-xl transition-all duration-200 group-hover:bg-colombia-green"
                   >
                     Inscribirme Ahora
@@ -170,6 +180,7 @@ export default function Courses() {
             ¿Necesitas ayuda para elegir el programa adecuado?
           </p>
           <Button
+            onClick={() => handleWhatsAppClick('Asesoría de Cursos')}
             variant="outline"
             className="border-2 border-colombia-green text-colombia-green hover:bg-colombia-green hover:text-white font-semibold px-8 py-5 rounded-xl transition-all duration-200"
           >
